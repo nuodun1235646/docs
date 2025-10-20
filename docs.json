@@ -1,68 +1,81 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://docs.lichaoyuan.com",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "个人文档",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "文档首页",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "导航",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
+            "group": "资源",
+            "pages": []
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "跟单猿使用教程",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "介绍",
             "pages": [
-              "api-reference/introduction"
+              "copyapes/protocol",
+              "copyapes/introduction",
+              "copyapes/step",
+              "copyapes/task-info"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "申请交易所API",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "copyapes/exchange/proxy",
+              "copyapes/exchange/okx",
+              "copyapes/exchange/binance",
+              "copyapes/exchange/gate",
+              "copyapes/exchange/add"
+            ]
+          },
+          {
+            "group": "跟单欧意",
+            "pages": [
+              "copyapes/okx/open",
+              "copyapes/okx/person"
+            ]
+          },
+          {
+            "group": "跟单币安",
+            "pages": [
+              "copyapes/binance/open",
+              "copyapes/binance/close"
+            ]
+          },
+          {
+            "group": "VIP跟单功能",
+            "pages": [
+              "copyapes/vip/bicoin",
+              "copyapes/vip/hot",
+              "copyapes/vip/cookie",
+              "copyapes/vip/ws"
+            ]
+          },
+          {
+            "group": "其他",
+            "pages": [
+              "copyapes/other/add-cookie",
+              "copyapes/other/grab",
+              "copyapes/other/partner"
             ]
           }
         ]
@@ -71,52 +84,38 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "个人主页",
+          "href": "https://lichaoyuan.com",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "博客",
+          "href": "https://lichaoyuan.com/blog",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/favicon.png",
+    "dark": "/logo/favicon.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "邮件联系",
+        "href": "mailto:me@lichaoyuan.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "返回主页",
+      "href": "https://lichaoyuan.com"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/IndieLcy"
     }
   }
 }
