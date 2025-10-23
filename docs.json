@@ -68,16 +68,7 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "个人主页",
-          "href": "https://lichaoyuan.com",
-          "icon": "globe"
-        },
-        {
-          "anchor": "博客",
-          "href": "https://lichaoyuan.com/blog",
-          "icon": "newspaper"
-        }
+        
       ]
     }
   },
