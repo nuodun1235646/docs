@@ -11,22 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "文档首页",
-        "groups": [
-          {
-            "group": "导航",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "资源",
-            "pages": []
-          }
-        ]
-      },
-      {
-        "tab": "跟单猿使用教程",
+        "tab": "使用教程",
         "groups": [
           {
             "group": "介绍",
